@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array of Objects</title>
+</head>
+<body>
+    <script>
+//1             
+           let details = [
+               {
+                   Name : "Revathi",
+                   Branch : "Aerospace engineering",
+                   College : "Sastra",
+               },
+               {
+                   Name : "Rashmitha",
+                   Branch : "Electrical engineering",
+                   College : "Sastra",
+               },
+               {
+                   Name : "Abhinaya",
+                   Branch : "Mechanical engineering",
+                   College : "Sastra",
+               },
+           ]
+           for(i=0;i<details.length;i++)
+           {
+               document.write(details[i].Name);
+               document.write('</br>');
+           }
+//2             
+               let details1 = [
+               {
+                   Name : "Revathi",
+                   Branch : "Aerospace engineering",
+                   College : "Sastra",
+               },
+               {
+                   Name : "Rashmitha",
+                   Branch : "Electrical engineering",
+                   College : "Sastra",
+               },
+               {
+                   Name : "Abhinaya",
+                   Branch : "Mechanical engineering",
+                   College : "Sastra",
+               },
+           ]
+           for(i=0;i<details1.length;i++)
+           {
+               console.log(details1[i].Name);
+           }
+//3             
+               let details3 = [
+               {
+                   Name : "Revathi",
+                   Branch : "Aerospace engineering",
+                   College : "Sastra",
+               },
+               {
+                   Name : "Rashmitha",
+                   Branch : "Electrical engineering",
+                   College : "Sastra",
+               },
+               {
+                   Name : "Abhinaya",
+                   Branch : "Mechanical engineering",
+                   College : "Sastra",
+               },
+           ]
+           for(i=0;i<details3.length;i++)
+           {
+              for(k=0;k<details3.length;k++)
+                 {
+                        document.write(details3[k].Name);
+                         document.write('</br>');
+                  }
+               for(j=0;j<details3.length;j++)
+                 {
+                        document.write(details3[j].Branch);
+                         document.write('</br>');
+                  }
+               document.write(details3[i].Name);
+               document.write('</br>');
+           }
+
+
+
+
+
+
+    </script>
+</body>
+</html>

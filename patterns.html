@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patterns</title>
+</head>
+<body>
+    <script>
+
+/* 12345
+   12345
+   12345
+   12345
+   12345 */   
+                  for(let i=1;i<=5;i++)
+                  {
+                     for(let j=1;j<=5;j++)
+                     {
+                         document.write(j);
+                     }
+                     document.write('</br>');
+                  }
+/*
+    *
+    **
+    ***
+    ****
+    *****  */  
+                  for(let i=1; i<=5;i++)
+                   {
+                       for(let j=1;j<=i;j++)
+                         {
+                             document.write('*');    
+                         }
+                         document.write('</br>');
+                   }
+/*
+    *****
+    ****
+    ***
+    **
+    *  */  
+                   for(let i=5; i>=1;i--)
+                   {
+                       for(let j=1;j<=i;j++)
+                         {
+                             document.write('*');    
+                         }
+                         document.write('</br>');
+                   }
+/*
+    1
+    12
+    123
+    1234
+    12345  */  
+                   for(let i=1; i<=5;i++)
+                   {
+                       for(let j=1;j<=i;j++)
+                         {
+                             document.write(j);    
+                         }
+                         document.write('</br>');
+                   }
+/*
+    54321
+    54321
+    54321
+    54321
+    54321 */  
+                   for(let i=1; i<=5;i++)
+                   {
+                       for(let j=5;j>=1;j--)
+                         {
+                             document.write(j);    
+                         }
+                         document.write('</br>');
+                   }
+/*
+12345
+1234
+123
+12
+1 */
+                   for(let i=5; i>=1;i--)
+                   {
+                       for(let j=1;j<=i;j++)
+                         {
+                             document.write(j);    
+                         }
+                         document.write('</br>');
+                   }
+/*
+     *
+    * *
+   * * *
+  * * * *
+ * * * * *  */  
+                   for(let i=1; i<=5;i++)
+                   {
+                      for(let k=1;k<=(5-i);k++)
+                      {
+                         document.write("&nbsp;");
+                      }
+                       for(let j=1;j<=i;j++)
+                         {
+                             document.write('*');    
+                         }
+                         document.write('</br>');
+                   }
+/*
+     *
+    * *
+   * * *
+  * * * *
+ * * * * *  */  
+                   for(let i=1; i<=5;i++)
+                   {
+                      for(let k=1;k<=(5-i);k++)
+                      {
+                         document.write("&nbsp","&nbsp");
+                      }
+                       for(let j=1;j<=i;j++)
+                         {
+                             document.write('*');    
+                         }
+                         document.write('</br>');
+                   }
+
+                   for(let i=5; i>=1;i--)
+                   {
+                      for(let k=1;k<=(5-i);k++)
+                      {
+                         document.write("&nbsp");
+                      }
+                       for(let j=1;j<=i;j++)
+                         {
+                             document.write('*');    
+                         }
+                         document.write('</br>');
+                   }
+    </script>
+</body>
+</html>

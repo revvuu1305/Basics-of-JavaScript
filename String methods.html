@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Methods</title>
+</head>
+<body>
+    <script>
+//replace
+                const colors = "Red is my Favourite color";
+                console.log(colors.replace("Red","Blue"));
+//replaceAll
+                const colors1 = "Red is my Favourite color Red is dangerous color";
+                console.log(colors1.replaceAll("Red","Blue"));
+//toUpperCase
+                const colors2 = "Red is my Favourite color";
+                console.log(colors2.toUpperCase());
+//toLowerCase
+                const colors3 = "Red is my Favourite color";
+                console.log(colors3.toLowerCase());
+//length 
+                const colors4 = "Red is my Favourite color";
+                console.log(colors4.length);
+//includes
+                const colors5 = "Red is my Favourite color";
+                console.log(colors5.includes('Red'));
+                console.log(colors5.includes('yellow'));
+//slice 
+                const colors6 = "Red is my Favourite color";
+                console.log(colors6.slice(0));
+                console.log(colors6.slice(3));
+                console.log(colors6.slice(3,13));
+//indexof 
+                const colors7 = "Red is my Favourite color";
+                console.log(colors7.indexOf("o"));
+//Lastindexof 
+                const colors8 = "Red is my Favourite color, Red is dangerous";
+                console.log(colors8.lastIndexOf("o"));
+//search 
+                const colors9 = "Red is my Favourite color, Red is dangerous";
+                console.log(colors9.indexOf("d"));
+//startsWith 
+                const colors10 = "Red is my Favourite color";
+                console.log(colors10.startsWith("R"));
+                console.log(colors10.startsWith("c"));
+//endsWith 
+                const colors11 = "Red is my Favourite color";
+                console.log(colors11.endsWith("r"));
+//Split 
+                const colors12 = "Red is my Favourite color";
+                console.log(colors12.split());
+                console.log(colors12.split(""));
+                console.log(colors12.split(" "));
+//concat
+               const colors13 = "Red is my Favourite color";
+               const colors131 = "Green is friendly color";
+                console.log(colors13.concat(colors131));
+//trim 
+                const colors14 = "Red is my Favourite color";
+                console.log(colors14.trim( ));
+
+                
+
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conditional statements & loops</title>
+</head>
+<body>
+    <script>
+ // if else if else statements
+// 1 
+        let hour = 14;
+         if(hour < 16)
+         {
+            if (hour >= 12 && hour <= 16)
+            {
+             console.log("Good afternoon");
+            }
+         }
+         else{
+             console.log("Good Evening");
+         }      
+// 2
+        let age = 18;
+         if(age < 12)
+         {
+             console.log("Not at all Eligible for vote");
+         }
+         else if (age >= 12 && age <= 16)
+         {
+             console.log("Not Eligible");
+         }
+         else{
+             console.log("Eligible");
+
+         }   
+// 3
+         let numb1 = 2;
+         let numb2 = 4
+         if(numb1>2)
+         {
+             console.log("numb1 is greater");
+         }
+         else if (numb1 >= 3 || numb2 <= 5)
+         {
+             console.log("true");
+         }
+         else{
+             console.log("false");
+         }
+// 4
+        let x = 14;
+        let y = 12;
+         if(y === "12")
+         {
+             console.log("true");
+         }
+         else if (x === "12" && y <= 16)
+         {
+             console.log("Good afternoon");
+         }
+         else{
+             console.log("Not Exist");
+         }
+// 5
+        let t = 0;
+         if(t < 12)
+         {
+             console.log("Yes it's true");
+         }
+         else if (t <= 12 && t >= 16)
+         {
+             console.log("It is false");
+         }
+         else{
+             console.log("False");
+         }            
+
+// ternary
+//1
+    let time=18;
+    (time<15)? console.log("It is very cool") : console.log("It is Moderate");
+//2 
+    let a= 15;
+    ((a>15) || (a<20))? console.log("True") : console.log("False");
+//3
+    let b=0;
+    (b<0)? console.log("True") : console.log("False");
+//4
+    let c= "hello";
+    (c ==="hello")? console.log("yes it is correct") : console.log("False");
+//5
+    let d=18;
+    (!d<!20)? console.log("Yes") : console.log("No");
+
+
+// switch 
+//1     
+      let day;
+      console.log(day);
+       switch(day){
+               case 'sunday':
+                          console.log("It is Sunday");
+                          break;
+               case 'monday':
+                           console.log("It is Monday");
+                           break;
+               case 'tuesday':
+                         console.log("It is Tuesday");
+                        break;
+               case 'Wednesday':
+                           console.log("It is Wednesday");
+                           break;
+             case 'Thursday':
+                           console.log("It is Thursday");
+                           break;
+            case 'Friday':
+                           console.log("It is Friday");
+                           break;
+            default:
+                console.log("It is Saturday");
+                break;
+       }
+//2     
+       let month = "may";
+       switch(month){
+               case 'Jan':
+                          console.log("It is Jan month");
+                          break;
+               case 'feb':
+                           console.log("It is Feb month");
+                           break;
+               case 'may':
+                         console.log("It is May month");
+                        break;
+            default:
+                console.log("It is today");
+                break;
+       }
+//3     
+       let season;
+       switch(season){
+               case 'summer':
+                          console.log("It is Summer");
+                          break;
+               case 'winter':
+                           console.log("It is winter");
+                           break;
+            default:
+                console.log("It is Rainy");
+                break;
+       }
+//4     
+       let names = "";
+       switch(names){
+               case 'Revathi':
+                          console.log("Revathi");
+                          break;
+               case 'Gangineni':
+                           console.log("Gangineni");
+                           break;
+            default:
+                console.log("Revathi Gangineni");
+                break;
+       }
+//5     
+       let colors = "Red";
+       switch(colors){
+               case 'Red':
+                          console.log("It is Red");
+                          break;
+               case 'Black':
+                           console.log("It is Black");
+                           break;
+            default:
+                console.log("No colour");
+                break;
+       }
+ // For
+ //1
+         for(let i=1; i<=25; i++)
+         {
+             if(i%5 === 0)
+             {
+                 console.log(i);
+             }
+         }
+//2
+         for(let i=1; i<=25; i++)
+         {
+             if(i%2 === 1)
+             {
+                 console.log(i);
+             }
+         }
+//3
+         for(let i=1; i<=25; i++)
+         {
+             if(i%2 === 0)
+             {
+                 console.log(i);
+             }
+         }
+//4
+         for(let i=0; i<=10; i++)
+         {
+             if(i++)
+             {
+                 console.log(i);
+             }
+         }
+//4
+         for(let i=1; i<=10; i++)
+         {
+             if(i++)
+             {
+                 console.log(i);
+             }
+         }
+// while
+//1
+        let someNumber = 5;
+        while(someNumber<10)
+        {
+            console.log(someNumber);
+            someNumber++;
+        }
+//2
+       let somenumber ="10";
+       while(somenumber === "10")
+       {
+           console.log(somenumber);
+          somenumber--;
+       }
+//3
+       let somenumber1 = 2;
+       while(somenumber1<5)
+       {
+           console.log(somenumber1);
+           somenumber1++;
+       }
+//do while
+//1
+            let count =0;
+                   do{
+                        console.log(count);
+                      }
+                      while(false);
+//2
+            let count1 =1;
+                   do{
+                        console.log(count1
+                        );
+                      }
+                      while(false);
+
+         
+</script>
+</body>
+</html>
